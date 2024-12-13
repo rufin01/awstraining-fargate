@@ -37,6 +37,13 @@ ${jsonencode(
       "Effect": "Allow",
       "Action": "s3:PutObject",
       "Resource": "*",
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "sns:Publish"
+      ],
+      "Resource": "*"
     }
   ]
 }

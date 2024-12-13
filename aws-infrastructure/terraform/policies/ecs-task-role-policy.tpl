@@ -44,7 +44,14 @@ ${jsonencode(
         "sns:Publish"
       ],
       "Resource": "*"
-    }
+    },
+    {
+                "Action": [
+                    "translate:*"
+                ],
+                "Effect": "Allow",
+                "Resource": "*"
+            }
   ]
 }
 )

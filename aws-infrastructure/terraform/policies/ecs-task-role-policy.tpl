@@ -47,7 +47,9 @@ ${jsonencode(
     },
     {
                 "Action": [
-                    "translate:*"
+                    "translate:*",
+                    "comprehend:DetectSentiment",
+                    "comprehend:ClassifyDocument"
                 ],
                 "Effect": "Allow",
                 "Resource": "*"
